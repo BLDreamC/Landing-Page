@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-logo img{
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 100px;
+
+}
+.header-link{
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.header-link a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.subtitle{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 250px;
+    flex-basis: 400px;
+
+}
+.subtitle h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0%;
+}
+.title button{
+    display: block;
+    text-align: center;
+    width: 100px;
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: -100px;
+}
+
+.insert-pic img{
+    width: 500px;
+    height: 350px;
+}
