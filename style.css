@@ -1,3 +1,5 @@
+/* top nav bar */
+
 .container{
     display: flex;
     flex-direction: column;
@@ -29,7 +31,7 @@
 }
 
 
-
+/*below the nav bar thing */
 
 .title{
     display: flex;
@@ -69,4 +71,75 @@
 .insert-pic img{
     width: 500px;
     height: 350px;
+}
+
+/*content part */
+
+.content{
+    align-items: center;
+    background-color: white;
+    text-align: center;
+}
+
+.info-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content img{
+    width: 200px;
+    height:200px;
+    margin: 10px 10px;
+    border-radius: 30px;
+    border: 5px solid black;
+}
+
+/*quote part */
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 0px 50px;
+}
+.quote p{
+    font-size: 50px;
+}
+
+.quote b{
+    text-align: right;
+    padding: 10px;
+}
+
+
+/*sign up (need to fix it, make it look better) */
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    background-color: #3883f6;
+    border-radius:  10px;
+    margin: 50px 500px;
+    color: white;
+}
+h3{
+    text-align: left;
+}
+.sign-up button{
+    color: white;
+    background-color: #3883f6;
+    border: 2px solid white;
+    border-radius:  10px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+/*footer */
+
+.footer{
+    color: white;
+    text-align: center;
 }
